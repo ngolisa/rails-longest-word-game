@@ -1,0 +1,12 @@
+<h1>Result</h1>
+<!-- <p>Find me in app/views/games/score.html.erb</p> -->
+
+<% if @score == 'notinthegrid' %>
+<p> <%= "Sorry but #{@userword.upcase} can't be build out of #{@letters}" %></p>
+<% elsif @score == 'notenglish' %>
+<p><%= "Sorry but #{@userword.upcase} does not seem to be a valid English word.. "%></p>
+<% else %>
+<p><%= "Congratulations! #{@userword.upcase} is a valid word!" %></p>
+<% end %>
+
+<%= link_to "New Game", '/new' %>

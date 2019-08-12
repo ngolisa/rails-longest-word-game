@@ -1,0 +1,38 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Your CSS
+/*@import "layout/index";
+@import "components/index";
+@import "pages/index";
+@import "vendor/index";
+*/
+
+.container {
+  margin: 5px;
+  text-align: center;
+}
+
+.grid{
+  padding: 100px 0;
+  display: flex;
+  text-align: center;
+  .letter{
+    display: inline-block;
+    justify-content: space-beetwen;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    padding: 10px 0;
+    margin: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: #6196D1;
+    text-align: center;
+  }
+}
+.grid li{
+  list-style-type: none;
+  text-align: center;
+}
